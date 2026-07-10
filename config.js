@@ -49,7 +49,7 @@
     path: "assets/music/wedding-music.mp3"
   },
   images: {
-    hero: "assets/images/wedding-illustration-burgundy.png",
+    hero: "assets/images/wedding-illustration-burgundy-mobile.webp",
     bride: "assets/images/bride.svg",
     groom: "assets/images/groom.svg"
   },
