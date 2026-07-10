@@ -10,14 +10,14 @@
     monogram: "A&A"
   },
   event: {
-    day: "Rabu",
-    dateDisplay: "2 September 2026",
-    dateTime: "2026-09-02T12:00:00+08:00",
+    day: "Sabtu",
+    dateDisplay: "5 September 2026",
+    dateTime: "2026-09-05T12:00:00+08:00",
     invitationTime: "12:00 Tengah Hari",
     arrivalLabel: "Ketibaan Pengantin",
     arrivalTime: "12:30 Tengah Hari",
-    venueName: "Taman Pertama",
-    venueAddress: "Lokasi majlis pihak pengantin lelaki"
+    venueName: "No.84, Taman Pertama",
+    venueAddress: "No.84, Taman Pertama"
   },
   parents: {
     intro: "Dengan penuh kesyukuran,",
