@@ -1,0 +1,148 @@
+﻿<!doctype html>
+<html lang="ms">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Majlis Walimatulurus Anis Zulaikha dan Mohamad Asyraf." />
+    <meta name="theme-color" content="#6b1527" />
+    <title>Asyraf & Anis Wedding Invitation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="preload" as="image" href="assets/images/wedding-illustration-burgundy.png" type="image/png" fetchpriority="high" />
+    <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="locked">
+    <div class="opening-screen" id="openingScreen" aria-live="polite">
+      <div class="opening-art" aria-hidden="true"></div>
+      <div class="opening-panel">
+        <div class="envelope-wrap">
+          <div class="envelope" aria-hidden="true">
+            <div class="envelope-back"></div>
+            <div class="letter"><span data-text="monogram">A&A</span></div>
+            <div class="envelope-front"></div>
+            <div class="envelope-flap"></div>
+          </div>
+        </div>
+        <p class="eyebrow">Walimatulurus</p>
+        <h1 data-text="coupleName">Asyraf & Anis</h1>
+        <button class="btn btn-primary" id="openInvitation" type="button">Open Invitation</button>
+      </div>
+    </div>
+
+    <audio id="weddingMusic" preload="none" loop></audio>
+    <div class="scroll-progress" id="scrollProgress"></div>
+    <div class="floating-petals" id="floatingPetals" aria-hidden="true"></div>
+
+    <main>
+      <section class="hero section" id="home" aria-labelledby="heroTitle">
+        <img class="hero-image" id="heroImage" src="assets/images/wedding-illustration-burgundy.png" alt="Classic burgundy Malay wedding illustration" width="1024" height="1536" decoding="async" fetchpriority="high" />
+        <div class="hero-glow" aria-hidden="true"></div>
+        <div class="hero-content reveal">
+          <p class="eyebrow">The Wedding Of</p>
+          <div class="monogram" data-text="monogram">A&A</div>
+          <h2 id="heroTitle"><span data-text="groomName">Mohamad Asyraf</span><small>&amp;</small><span data-text="brideName">Anis Zulaikha</span></h2>
+          <p class="hero-date"><span data-text="eventDay">Rabu</span> <span data-text="eventDate">2 September 2026</span></p>
+        </div>
+        <a class="scroll-cue" href="#guest" aria-label="Scroll to invitation"><span></span></a>
+      </section>
+
+      <section class="guest-section section" id="guest" hidden aria-labelledby="guestName">
+        <div class="section-inner narrow reveal">
+          <p class="eyebrow" data-text="guestLabel">Jemputan Khas Buat</p>
+          <h2 id="guestName">Guest</h2>
+        </div>
+      </section>
+
+      <section class="invitation section ivory-band" id="invitation" aria-labelledby="invitationTitle">
+        <div class="section-inner narrow reveal">
+          <p class="bismillah" data-text="bismillah" lang="ar" dir="rtl">بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</p>
+          <p class="parents-intro" data-text="parentsIntro">Dengan penuh kesyukuran,</p>
+          <h2 id="invitationTitle" class="parents-names"><span data-text="fatherName">Azahari bin Abu Hassan</span><small>dan</small><span data-text="motherName">Che Norlina binti Ismail</span></h2>
+          <p class="invitation-copy" data-text="parentsInvitation"></p>
+          <div class="ornament" aria-hidden="true"></div>
+          <p class="invitation-copy" data-text="invitationNote"></p>
+        </div>
+      </section>
+
+      <section class="countdown section blue-band" id="countdown" aria-labelledby="countdownTitle">
+        <div class="section-inner reveal">
+          <p class="eyebrow">Counting The Days</p>
+          <h2 id="countdownTitle"><span data-text="eventDay">Rabu</span><small data-text="eventDate">2 September 2026</small></h2>
+          <div class="countdown-grid" aria-label="Wedding countdown">
+            <div><strong id="days">0</strong><span>Days</span></div>
+            <div><strong id="hours">0</strong><span>Hours</span></div>
+            <div><strong id="minutes">0</strong><span>Minutes</span></div>
+            <div><strong id="seconds">0</strong><span>Seconds</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="couple section" id="couple" aria-labelledby="coupleTitle">
+        <div class="section-inner reveal">
+          <p class="eyebrow">Groom &amp; Bride</p>
+          <h2 id="coupleTitle">Anis &amp; Asyraf</h2>
+          <div class="couple-grid">
+            <article class="person-card"><img id="brideImage" alt="Anis Zulaikha" loading="lazy" /><h3 data-text="brideName">Anis Zulaikha</h3><p>Bride</p></article>
+            <article class="person-card"><img id="groomImage" alt="Mohamad Asyraf" loading="lazy" /><h3 data-text="groomName">Mohamad Asyraf</h3><p>Groom</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="details section ivory-band" id="details" aria-labelledby="detailsTitle">
+        <div class="section-inner reveal">
+          <p class="eyebrow">Wedding Information</p>
+          <h2 id="detailsTitle">Walimatulurus</h2>
+          <div class="details-grid">
+            <article><span>Hari</span><strong data-text="eventDay">Rabu</strong></article>
+            <article><span>Tarikh</span><strong data-text="eventDate">2 September 2026</strong></article>
+            <article><span>Masa</span><strong data-text="invitationTime">12:00 Tengah Hari</strong></article>
+            <article><span data-text="arrivalLabel">Ketibaan Pengantin</span><strong data-text="arrivalTime">12:30 Tengah Hari</strong></article>
+            <article class="wide"><span>Venue</span><strong data-text="venueName">Taman Pertama</strong><p data-text="venueAddress">Lokasi majlis pihak pengantin lelaki</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="timeline section" id="timeline" aria-labelledby="timelineTitle">
+        <div class="section-inner narrow reveal">
+          <p class="eyebrow">Wedding Timeline</p>
+          <h2 id="timelineTitle">Event Flow</h2>
+          <ol class="timeline-list" id="timelineList"></ol>
+        </div>
+      </section>
+
+      <section class="map section blue-band" id="map" aria-labelledby="mapTitle">
+        <div class="section-inner reveal">
+          <p class="eyebrow">Location</p>
+          <h2 id="mapTitle" data-text="venueName">Taman Pertama</h2>
+          <div class="map-frame"><iframe id="mapEmbed" title="Google Maps location" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+          <a class="btn btn-light" id="mapsLink" target="_blank" rel="noreferrer">Open in Google Maps</a>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact" aria-labelledby="contactTitle">
+        <div class="section-inner reveal">
+          <p class="eyebrow">Contact</p>
+          <h2 id="contactTitle">Hubungi Keluarga</h2>
+          <div class="contact-grid" id="contactGrid"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="section-inner narrow reveal">
+        <p class="footer-kicker">Terima Kasih</p>
+        <h2>With Love &amp; Gratitude</h2>
+        <p>Terima kasih atas doa, kehadiran dan restu yang menyerikan majlis kami.</p>
+        <strong data-text="coupleName">Asyraf & Anis</strong>
+      </div>
+    </footer>
+
+    <button class="music-toggle" id="musicToggle" type="button" aria-label="Toggle music">Music Off</button>
+    <button class="back-to-top" id="backToTop" type="button" aria-label="Back to top">Up</button>
+
+    <script src="config.js"></script>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
