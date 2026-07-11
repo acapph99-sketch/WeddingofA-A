@@ -15,9 +15,9 @@ AA_Wedding_Website/
   README.md
   assets/
     images/
-      wedding-illustration.webp
-      bride.svg
-      groom.svg
+      wedding-illustration-burgundy-mobile.webp
+      bride-polaroid-closeup-v2.webp
+      groom-polaroid-closeup-v2.webp
     music/
       wedding-music.mp3
     icons/
@@ -32,7 +32,7 @@ Open `config.js`. Editable content lives there:
 - Monogram
 - Date and time
 - Venue
-- Bride's parents
+- Groom's parents
 - Contact people
 - Google Maps links
 - Music path
@@ -44,9 +44,9 @@ Open `config.js`. Editable content lives there:
 Replace these files with your final assets:
 
 ```text
-assets/images/wedding-illustration.webp
-assets/images/bride.svg
-assets/images/groom.svg
+assets/images/wedding-illustration-burgundy-mobile.webp
+assets/images/bride-polaroid-closeup-v2.webp
+assets/images/groom-polaroid-closeup-v2.webp
 ```
 
 If you change filenames, update the paths inside `config.js` and `style.css`.

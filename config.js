@@ -50,8 +50,8 @@
   },
   images: {
     hero: "assets/images/wedding-illustration-burgundy-mobile.webp",
-    bride: "assets/images/bride-childhood.webp",
-    groom: "assets/images/groom-childhood.webp"
+    bride: "assets/images/bride-polaroid-closeup-v2.webp",
+    groom: "assets/images/groom-polaroid-closeup-v2.webp"
   },
   timeline: [
     { time: "12:00 PM", title: "Guest Arrival" },
