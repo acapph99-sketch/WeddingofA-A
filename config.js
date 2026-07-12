@@ -25,7 +25,7 @@
     connector: "dan",
     mother: "Che Norlina binti Ismail",
     invitation:
-      "menjemput Dato', Datin, Tuan, Puan, Encik dan Cik ke Majlis Walimatulurus putera kami."
+      "menjemput Dato', Datin, Tuan, Puan, Encik dan Cik serta keluarga ke Majlis Walimatulurus putera kami."
   },
   invitation: {
     guestLabel: "Jemputan Khas Buat",
