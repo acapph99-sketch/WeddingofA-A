@@ -38,12 +38,12 @@
       name: "Azahari",
       relationship: "Bapa Pengantin Lelaki",
       phone: "60194300024"
-    }
+    },
     {
       name: "Che Norlina",
       relationship: "Ibu Pengantin Lelaki",
       phone: "60195624622"
-    }
+    },
     {
       name: "Asyraf",
       relationship: "Pengantin Lelaki",
@@ -66,8 +66,8 @@
   timeline: [
     { time: "12:00 PM", title: "Guest Arrival" },
     { time: "12:30 PM", title: "Bride & Groom Arrival" },
-    { time: "Lunch Reception", title: "Jamuan Makan" },
-    { time: "End", title: "Thank You" }
+    { time: "12.00 PM", title: "Jamuan Makan" },
+    { time: "5.30 PM", title: "Majlis Tamat" }
   ],
 };
 
