@@ -25,7 +25,7 @@
     connector: "dan",
     mother: "Che Norlina binti Ismail",
     invitation:
-      "menjemput Dato', Datin, Tuan, Puan, Encik dan Cik ke Majlis Walimatulurus putera mereka."
+      "menjemput Dato', Datin, Tuan, Puan, Encik dan Cik ke Majlis Walimatulurus putera kami."
   },
   invitation: {
     guestLabel: "Jemputan Khas Buat",
@@ -38,6 +38,16 @@
       name: "Azahari",
       relationship: "Bapa Pengantin Lelaki",
       phone: "60194300024"
+    }
+    {
+      name: "Che Norlina",
+      relationship: "Ibu Pengantin Lelaki",
+      phone: "60195624622"
+    }
+    {
+      name: "Asyraf",
+      relationship: "Pengantin Lelaki",
+      phone: "601154240673"
     }
   ],
   maps: {
