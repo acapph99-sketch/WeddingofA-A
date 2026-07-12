@@ -66,8 +66,8 @@
   timeline: [
     { time: "12:00 PM", title: "Guest Arrival" },
     { time: "12:30 PM", title: "Bride & Groom Arrival" },
-    { time: "12.00 PM", title: "Jamuan Makan" },
-    { time: "5.30 PM", title: "Majlis Tamat" }
+    { time: "12:00 PM", title: "Jamuan Makan" },
+    { time: "5:30 PM", title: "Majlis Tamat" }
   ],
 };
 
