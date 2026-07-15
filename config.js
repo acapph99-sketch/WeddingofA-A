@@ -13,11 +13,11 @@
     day: "Sabtu",
     dateDisplay: "5 September 2026",
     dateTime: "2026-09-05T12:00:00+08:00",
-    invitationTime: "12:00 Tengah Hari",
+    invitationTime: "12:00 - 5:30 PM",
     arrivalLabel: "Ketibaan Pengantin",
-    arrivalTime: "12:30 Tengah Hari",
+    arrivalTime: "12:30 PM",
     venueName: "No.84, Taman Pertama",
-    venueAddress: "No.84, Taman Pertama"
+    venueAddress: "06010, Changlun, Kedah"
   },
   parents: {
     intro: "Dengan penuh kesyukuran,",
