@@ -17,7 +17,7 @@
     arrivalLabel: "Ketibaan Pengantin",
     arrivalTime: "12:30 PM",
     venueName: "No.84, Taman Pertama",
-    venueAddress: "06010, Changlun, Kedah"
+    venueAddress: "06010, Changloon, Kedah"
   },
   parents: {
     intro: "Dengan penuh kesyukuran,",
