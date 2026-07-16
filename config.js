@@ -13,19 +13,19 @@
     day: "Sabtu",
     dateDisplay: "5 September 2026",
     dateTime: "2026-09-05T12:00:00+08:00",
-    invitationTime: "12:00 Tengah Hari",
+    invitationTime: "12:00 - 5:30 PM",
     arrivalLabel: "Ketibaan Pengantin",
-    arrivalTime: "12:30 Tengah Hari",
+    arrivalTime: "12:30 PM",
     venueName: "No.84, Taman Pertama",
-    venueAddress: "No.84, Taman Pertama"
+    venueAddress: "06010, Changloon, Kedah"
   },
   parents: {
     intro: "Dengan penuh kesyukuran,",
     father: "Azahari bin Abu Hassan",
-    connector: "dan",
+    connector: "&amp;",
     mother: "Che Norlina binti Ismail",
     invitation:
-      "menjemput Dato', Datin, Tuan, Puan, Encik dan Cik ke Majlis Walimatulurus putera mereka."
+      "menjemput Dato', Datin, Tuan, Puan, Encik dan Cik serta keluarga ke Majlis Walimatulurus putera kami."
   },
   invitation: {
     guestLabel: "Jemputan Khas Buat",
@@ -38,6 +38,16 @@
       name: "Azahari",
       relationship: "Bapa Pengantin Lelaki",
       phone: "60194300024"
+    },
+    {
+      name: "Che Norlina",
+      relationship: "Ibu Pengantin Lelaki",
+      phone: "60195624622"
+    },
+    {
+      name: "Asyraf",
+      relationship: "Pengantin Lelaki",
+      phone: "601154240673"
     }
   ],
   maps: {
@@ -54,10 +64,10 @@
     groom: "assets/images/groom-polaroid-closeup-v2.webp"
   },
   timeline: [
-    { time: "12:00 PM", title: "Guest Arrival" },
-    { time: "12:30 PM", title: "Bride & Groom Arrival" },
-    { time: "Lunch Reception", title: "Jamuan Makan" },
-    { time: "End", title: "Thank You" }
+    { time: "12:00 PM", title: "Ketibaan Tetamu" },
+    { time: "12:30 PM", title: "Ketibaan Pengantin" },
+    { time: "12:00 PM", title: "Jamuan Makan" },
+    { time: "5:30 PM", title: "Majlis Tamat" }
   ],
 };
 
