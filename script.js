@@ -221,3 +221,4 @@ revealOnScroll();
 setupMusic();
 setupScrollUi();
 setupPetals();
+

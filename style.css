@@ -1,4 +1,4 @@
-﻿:root {
+:root {
   --ivory: #fffaf0;
   --warm-ivory: #f3e5ce;
   --parchment: #ead8bd;
@@ -558,7 +558,7 @@ h3 {
   display: block;
   margin: 14px auto 0;
   color: var(--burgundy-medium);
-  content: "↓";
+  content: "â†“";
 }
 
 .timeline-list li:last-child::after {
@@ -813,4 +813,5 @@ h3 {
     transition-duration: 0.01ms !important;
   }
 }
+
 
