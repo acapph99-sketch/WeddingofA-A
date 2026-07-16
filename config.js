@@ -1,7 +1,7 @@
 ﻿const WEDDING_CONFIG = {
   meta: {
     siteTitle: "Asyraf & Anis Wedding Invitation",
-    description: "Majlis Walimatulurus Anis Zulaikha dan Mohamad Asyraf."
+    description: "Jemputan Majlis Walimatulurus Mohamad Asyraf dan Anis Zulaikha pada Sabtu, 5 September 2026."
   },
   couple: {
     bride: "Anis Zulaikha",
@@ -13,11 +13,11 @@
     day: "Sabtu",
     dateDisplay: "5 September 2026",
     dateTime: "2026-09-05T12:00:00+08:00",
-    invitationTime: "12:00 - 5:30 PM",
+    invitationTime: "12:00 Tengah Hari",
     arrivalLabel: "Ketibaan Pengantin",
-    arrivalTime: "12:30 PM",
+    arrivalTime: "12:30 Tengah Hari",
     venueName: "No.84, Taman Pertama",
-    venueAddress: "06010, Changloon, Kedah"
+    venueAddress: "No.84, Taman Pertama"
   },
   parents: {
     intro: "Dengan penuh kesyukuran,",
@@ -25,7 +25,7 @@
     connector: "dan",
     mother: "Che Norlina binti Ismail",
     invitation:
-      "menjemput Dato', Datin, Tuan, Puan, Encik dan Cik serta keluarga ke Majlis Walimatulurus putera kami."
+      "menjemput Dato', Datin, Tuan, Puan, Encik dan Cik ke Majlis Walimatulurus putera mereka."
   },
   invitation: {
     guestLabel: "Jemputan Khas Buat",
@@ -38,16 +38,6 @@
       name: "Azahari",
       relationship: "Bapa Pengantin Lelaki",
       phone: "60194300024"
-    },
-    {
-      name: "Che Norlina",
-      relationship: "Ibu Pengantin Lelaki",
-      phone: "60195624622"
-    },
-    {
-      name: "Asyraf",
-      relationship: "Pengantin Lelaki",
-      phone: "601154240673"
     }
   ],
   maps: {
@@ -64,10 +54,10 @@
     groom: "assets/images/groom-polaroid-closeup-v2.webp"
   },
   timeline: [
-    { time: "12:00 PM", title: "Ketibaan Tetamu" },
-    { time: "12:30 PM", title: "Ketibaan Pengantin" },
-    { time: "12:00 PM", title: "Jamuan Makan" },
-    { time: "5:30 PM", title: "Majlis Tamat" }
+    { time: "12:00 PM", title: "Guest Arrival" },
+    { time: "12:30 PM", title: "Bride & Groom Arrival" },
+    { time: "Lunch Reception", title: "Jamuan Makan" },
+    { time: "End", title: "Thank You" }
   ],
 };
 

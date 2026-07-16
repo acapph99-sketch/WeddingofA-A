@@ -16,6 +16,7 @@ AA_Wedding_Website/
   assets/
     images/
       wedding-illustration-burgundy-mobile.webp
+      social-preview.jpg
       bride-polaroid-closeup-v2.webp
       groom-polaroid-closeup-v2.webp
     music/
