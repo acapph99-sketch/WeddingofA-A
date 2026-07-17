@@ -1,11 +1,11 @@
 ﻿const WEDDING_CONFIG = {
   meta: {
     siteTitle: "Asyraf & Anis Wedding Invitation",
-    description: "Majlis Walimatulurus Anis Zulaikha dan Mohamad Asyraf."
+    description: "Majlis Walimatulurus Mohamad Asyraf &amp; Anis Zulaikha"
   },
   couple: {
-    bride: "Anis Zulaikha",
     groom: "Mohamad Asyraf",
+    bride: "Anis Zulaikha",
     displayName: "Asyraf & Anis",
     monogram: "A&A"
   },
